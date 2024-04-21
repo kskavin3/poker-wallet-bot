@@ -1,0 +1,19 @@
+{
+    "welcome": "Greetings, and welcome to fauna-wallet. Your account has been created successfully.",
+    "help": "*Help Commands*:\n* - To create a new wallet /newwallet.\n * - To see all of your wallets, click here /allwallet.\n * - To Delete a wallet /deletewallet\n * - To send tokens to another wallet /sendtoken\n * - To obtain a wallet's QR code and address  /walletdetails\n * - To obtain all transaction information for a certain wallet /wallethistory\n\n\nIf you want to see this help message again, click here /help.",
+    "newWallet": "What would you like to name your wallet? Eg Saving, Business, etc. \n\n\n*It must not contain spaces and must be less than 12 characters.* ",
+    "createWalletSuccess": "*Successfully created new TRX {}*\n\nWallet address is {}.\n\nPlease note that sending another asset apart from Tron will lead to permanent loss of the asset.",
+    "allWalletFound": "Your TRX wallets registered on fauna-wallet.",
+    "allWalletNotFound": "You don't have a wallet set up on fauna-wallet.\n\n*Create a new wallet /NewWallet*.",
+    "walletNotFound": "The wallet {} was not found",
+    "walletDetail": "Wallet Name: {}\nWallet Address: {}\nWallet Balance: {}\nQRCode:",
+    "sendTokenInstruction": "Select Wallet",
+    "askAmount": "Enter the number of tokens you want to send. You current balance is: {}",
+    "invalidAmountType": "You have entered an invalid amount. Please enter a number like 1.0",
+    "recieverAddress": "Please provide the recipient's TRX wallet address.",
+    "transactionSuccess": "You have successfully transferred {} TRX from {} to {}.",
+    "transactionUnsuccessful": "Unable to transfer {} TRX from {} to {}. **Reason {}**",
+    "incorrectAddress": "Wallet address *{}* is not valid.",
+    "deleteWalletSuccess": "*Delete operation successful*",
+    "deleteWalletNotSuccessful": "*Delete operation not successful"
+}
